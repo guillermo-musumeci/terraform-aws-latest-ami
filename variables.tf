@@ -12,6 +12,6 @@ variable "aws_secret_key" {
 # AWS Region
 variable "aws_region" {
   type        = string
-  description = "AWS Region for the VPC"
+  description = "AWS Region"
   default     = "eu-west-1"
 }

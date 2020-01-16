@@ -10,7 +10,7 @@
 
 **Get-Latest-SuSE-Linux-AMI.tf** --> Get latest SuSE Linux AMI
 
-**Get-Latest-Ubuntu-Linux-AMI.tf** --> Get latest SuSE Linux AMI
+**Get-Latest-Ubuntu-Linux-AMI.tf** --> Get latest Ubuntu Linux AMI
 
 **Get-Latest-Windows-AMI.tf** --> Get latest Windows AMI
 

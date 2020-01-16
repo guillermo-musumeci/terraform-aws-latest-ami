@@ -64,8 +64,16 @@ output "suse_linux_12_sp4_ami_id" {
   value = "${data.aws_ami.suse-linux-12-sp4.id}"
 }
 
+output "suse_linux_12_sp5_ami_id" {
+  value = "${data.aws_ami.suse-linux-12-sp5.id}"
+}
+
 output "suse_linux_15_ami_id" {
   value = "${data.aws_ami.suse-linux-15.id}"
+}
+
+output "suse_linux_15_sp1_ami_id" {
+  value = "${data.aws_ami.suse-linux-15-sp1.id}"
 }
 
 output "ubuntu_1404_ami_id" {
@@ -78,6 +86,10 @@ output "ubuntu_1604_ami_id" {
 
 output "ubuntu_1804_ami_id" {
   value = "${data.aws_ami.ubuntu-linux-1804.id}"
+}
+
+output "ubuntu_1904_ami_id" {
+  value = "${data.aws_ami.ubuntu-linux-1904.id}"
 }
 
 output "windows_server_2012_r2_ami_id" {

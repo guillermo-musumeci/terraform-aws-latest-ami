@@ -25,6 +25,10 @@ output "windows_2016_ami_id" {
   value = "${data.aws_ami.windows-2016.id}"
 }
 
+output "windows_2019_ami_id" {
+  value = "${data.aws_ami.windows-2019.id}"
+}
+
 output "redhat_linux_75_ami_id" {
   value = "${data.aws_ami.redhat-linux-75.id}"
 }

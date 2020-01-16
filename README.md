@@ -7,3 +7,5 @@
 **Get-Latest-SuSE-Linux-AMI.tf** --> Get latest SuSE Linux AMI
 
 **Get-Latest-Windows-AMI.tf** --> Get latest Windows AMI
+
+**main-ami.tf** --> List all AMI

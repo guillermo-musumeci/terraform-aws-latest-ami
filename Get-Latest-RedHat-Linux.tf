@@ -11,4 +11,3 @@ data "aws_ami" "redhat-linux-75" {
         values = ["RHEL-7.*"]
     }
 }
-
